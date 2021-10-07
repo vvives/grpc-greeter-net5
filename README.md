@@ -13,3 +13,6 @@ Navigate to *GrpcGreeter.Client* and execute the following command:
 ```sh
 dotnet run username
 ```
+
+## Comments
+This is fully compatible with [this project](https://github.com/vvives/grpc-greeter-python).
