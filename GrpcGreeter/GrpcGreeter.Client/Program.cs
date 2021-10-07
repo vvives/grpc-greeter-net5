@@ -32,7 +32,7 @@ namespace GrpcGreeter.Client
             httpHandler.ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator;
 
             // This is the default host and port.
-            using GrpcChannel channel = GrpcChannel.ForAddress("https://localhost:5001", new GrpcChannelOptions
+            using GrpcChannel channel = GrpcChannel.ForAddress("http://localhost:5000", new GrpcChannelOptions
             {
                 HttpHandler = httpHandler
             });
